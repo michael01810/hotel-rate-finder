@@ -9,7 +9,7 @@ Compare standard and corporate rates across **Hilton**, **Marriott**, and **Hyat
 - Search hotels by city for any date range
 - Compare standard rates vs. corporate/negotiated rates side by side
 - Supports Hilton, Marriott, and Hyatt
-- Live prices scraped directly from each chain's website
+- Live prices from each chain
 - One-click booking links with dates and corporate code pre-applied
 
 ## Corporate code examples
@@ -47,16 +47,8 @@ python -m uvicorn hilton_app:app --port 8001
 # Go to http://localhost:8001
 ```
 
-## How it works
-
-- **Hilton**: Intercepts the `shopMultiPropAvail` GraphQL API via Chrome DevTools Protocol
-- **Marriott**: Loads `findHotels.mi` search page and extracts prices from the DOM
-- **Hyatt**: Loads the Hyatt search page and extracts prices from hotel cards
-
-Each search opens a Chrome window (visible) to load the hotel chain's website. Corporate rates are fetched by reloading the search with the corporate code applied.
-
 ## Notes
 
-- Chrome windows will open and close automatically during each search — this is normal
+- Chrome windows will open and close automatically during each search
 - Searches take 30–90 seconds depending on how many corporate codes you enter
-- Prices are live from each chain's website and shown in the hotel's local currency
+- Prices in local currency
