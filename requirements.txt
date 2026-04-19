@@ -1,0 +1,5 @@
+fastapi==0.136.0
+uvicorn==0.44.0
+sse-starlette==3.3.4
+zendriver==0.15.3
+scrapling==0.4.6
