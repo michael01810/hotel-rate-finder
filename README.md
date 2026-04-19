@@ -20,6 +20,9 @@ Compare standard and corporate rates across **Hilton**, **Marriott**, and **Hyat
 | Marriott | `dtc`, `eyc`, `mck` | Deloitte, EY, McKinsey |
 | Hyatt | `20725`, `35466`, `NC22008` | Deloitte, McKinsey, Bain |
 
+<img width="1600" height="822" alt="7b28333f-d762-4a5a-86e3-c598d912aa5f" src="https://github.com/user-attachments/assets/29df7814-f065-4d5a-85c7-08d7b2cb3876" />
+
+
 ## Requirements
 
 - Python 3.11+
