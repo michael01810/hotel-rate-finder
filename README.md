@@ -1,4 +1,4 @@
-# Hotel Rate Finder
+# Corporate Rates without Borders
 
 Compare standard and corporate rates across **Hilton**, **Marriott**, and **Hyatt** in real time.
 
