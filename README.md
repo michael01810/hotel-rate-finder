@@ -55,3 +55,7 @@ python -m uvicorn hilton_app:app --port 8001
 - Chrome windows will open and close automatically during each search
 - Searches take 30–90 seconds depending on how many corporate codes you enter
 - Prices in local currency
+
+## Donations:
+- Venmo: @LMS01810
+- Autism Society: https://autismsociety.org/donate/ 
